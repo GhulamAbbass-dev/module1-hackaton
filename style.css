@@ -118,39 +118,57 @@ ul a {
 
 }
 
+/* for phone responsive ness */
 @media screen and (min-width: 360px) and (max-width:1024px){
 
   .navbar{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: var(--yellow);
-  padding: 20px;
-  border-radius: 12px;
-  position: fixed;
-left: 0%;
-  width: 95vw;
-  z-index: 1000;
-height: 60px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+    background-color: var(--yellow);
+   width: 178px;
+   height: 24px;
+    border-radius: 5px;
+    position: fixed;
+    left: -13px;
+ position: fixed;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 6px;
+ 
   }
-  
+  .logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: -20px;
+   
+  }
   
   .links ul{
     display: none;
   }
+ 
   .navbar-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+ width: 60px;
+    height: 20px;
   background-color: var(--dark-olive);
-  border-radius: 8px;
-  padding: 10px 20px;
-  width: 100px;
-  align-items: center;
+  border-radius: 5px;
  
 }
+.navbar-button a {
+    text-decoration: none;
+    color: var(--yellow);
+    font-weight: 500;
+    font-size: 10px;
+
 }
+
+ 
+}
+
 
 
 
@@ -220,6 +238,43 @@ height: 60px;
   color: white;
   margin-bottom: 70px;
 }
+
+
+/* responsive of hero section for phone */
+
+@media screen and (max-width: 400px) and (max-width:1024px) {
+  .hero-section {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+left: -85px;
+
+  }
+  .hero-section h1 {
+    font-size: 1.3em;
+  }
+  .hero-section p {
+    font-size: 0.5em;
+  }
+  .hero-link {
+    width: 40vw;
+    font-size: 1em;
+    height: 40px;
+    margin-bottom: 30px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* second-container */
 .second-container {
