@@ -118,10 +118,38 @@ ul a {
 
 }
 
-@media screen and (max-width:1024px) and (min-width: 360px) {
+@media screen and (min-width: 360px) and (max-width:1024px){
+
+  .navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--yellow);
+  padding: 20px;
+  border-radius: 12px;
+  position: fixed;
+left: 0%;
+  width: 95vw;
+  z-index: 1000;
+height: 60px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  
   .links ul{
     display: none;
   }
+  .navbar-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--dark-olive);
+  border-radius: 8px;
+  padding: 10px 20px;
+  width: 100px;
+  align-items: center;
+ 
+}
 }
 
 
