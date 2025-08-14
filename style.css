@@ -123,18 +123,7 @@ ul a {
     display: none;
   }
 }
-@media screen and (max-width:360px) and (min-width: 360px) {
-  .navbar {
-  display: flex;
-  }
-  .links ul {
-    flex-direction: column;
-    gap: 10px;
-  }
-  .navbar-button {
-    margin-top: 10px;
-  }
-}
+
 
 
 
