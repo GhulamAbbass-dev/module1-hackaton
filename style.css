@@ -127,7 +127,7 @@ ul a {
     align-items:center;
     justify-content: space-evenly;
     background-color: var(--yellow);
-   width: 258px;
+   width:78vw;
    height: 24px;
     border-radius: 5px;
     position: fixed;
@@ -242,12 +242,12 @@ ul a {
 
 /* responsive of hero section for phone */
 
-@media screen and (max-width: 1080px) and (max-width:1024px) {
+@media screen and (max-width: 1080px)  {
   .hero-section {
     padding-top: 80px;
     display: flex;
     flex-direction: column;
-left: -85px;
+left: -130px;
 
   }
   .hero-section h1 {
