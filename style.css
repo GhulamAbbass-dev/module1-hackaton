@@ -120,7 +120,7 @@ ul a {
 
 
 /* for phone responsive ness */
-@media screen and (max-width:1080px){
+@media screen and (min-width:1080px){
 
   .navbar{
     display:flex;
