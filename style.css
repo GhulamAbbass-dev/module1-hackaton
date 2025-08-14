@@ -118,25 +118,25 @@ ul a {
 
 }
 
+
 /* for phone responsive ness */
-@media screen and (min-width: 360px) and (max-width:1080px){
+@media screen and (max-width:1080px){
 
   .navbar{
-
     display:flex;
     align-items:center;
     justify-content: space-evenly;
     background-color: var(--yellow);
-   width: 178px;
+   width: 258px;
    height: 24px;
     border-radius: 5px;
     position: fixed;
-    left: -13px;
+    left: -11px;
  position: fixed;
     top: 0;
-    z-index: 1000;
+    z-index: 10;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    gap: 6px;
+    gap: 25px;
  
   }
   .logo img{
@@ -153,7 +153,7 @@ ul a {
  
   .navbar-button {
  width: 60px;
-    height: 20px;
+    height: 28px;
   background-color: var(--dark-olive);
   border-radius: 5px;
  
